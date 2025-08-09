@@ -83,6 +83,11 @@
     body.party-mode .badge{background:rgba(0,0,0,0.06); color:#071023}
     body.party-mode button.btn{background:linear-gradient(180deg,#071023,#0b2540); color:#fff}
     @keyframes partyBg{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
+    @media (max-width: 800px) {
+  div[style*="position: fixed"][style*="top: 20px"] {
+    display: none !important;
+  }
+}
 
   </style>
 </head>
@@ -871,3 +876,4 @@ fireworksTextExplosion('#birthday-message');
   </script>
 </body>
 </html>
+
